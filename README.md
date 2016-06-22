@@ -14,7 +14,7 @@
       <cmd> ::= <at> | <esc> | <leia>
       <esc> ::= escreva <texto>
       <texto> ::= str | var | <expr>
-      <expr> ::= num | <expr><op><expr> | pa<expr>pf | <vars>
+      <expr> ::= num | <expr><op><expr> | pa<expr>pf | var
       <op> ::= soma | div | mult | resto
       <leia> ::= leia <vars>
       <vars> ::= var | var sep<vars>
