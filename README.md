@@ -10,7 +10,7 @@
       Atribuição de valores as variáveis equivale a  
 
 ###Gramática BNF
-      <gr> ::= <cmd> | <cmd>EOL<gr>
+      <gr> ::= <cmd> | <cmd>eol<gr>
       <cmd> ::= <at> | <esc> | <leia>
       <esc> ::= escreva <texto>
       <texto> ::= str | var | <expr>
@@ -26,5 +26,5 @@
 |-------------|-------------------------------------------|--------------------------------|
 |   escreva   |                  escreva                  |               -                |
 |    leia     |                   leia                    |               -                |
-
+|     eol     |                    \n                     |               -                |
    
