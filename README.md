@@ -10,16 +10,16 @@
     *Atribuição de valores as variáveis equivale a  
 
 ###Gramática BNF
-      *<grammar> ::= <cmd> | <cmd>EOL<grammar>
-   <cmd> ::= <at> | <esc> | <leia>
-   <esc> ::= escreva <texto>
-   <texto> ::= str | var | <expr>
-   <expr> ::= num | <expr><op><expr> | pa<expr>pf
-   <op> ::= soma | div | mult | resto
-   <leia> ::= leia <vars>
-   <vars> ::= var | var sep<vars>
-   <at> ::= var rec <val>
-   <val> ::= num | var | <expr>
+      <grammar> ::= <cmd> | <cmd>EOL<grammar>
+      <cmd> ::= <at> | <esc> | <leia>
+      <esc> ::= escreva <texto>
+      <texto> ::= str | var | <expr>
+      <expr> ::= num | <expr><op><expr> | pa<expr>pf
+      <op> ::= soma | div | mult | resto
+      <leia> ::= leia <vars>
+      <vars> ::= var | var sep<vars>
+      <at> ::= var rec <val>
+      <val> ::= num | var | <expr>
    
 ###Tokens
    
