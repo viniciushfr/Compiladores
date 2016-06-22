@@ -1,4 +1,4 @@
-#My Grammar
+#Minha Gramática
 
 ###Ideias Iniciais
 
@@ -10,7 +10,7 @@
       Atribuição de valores as variáveis equivale a  
 
 ###Gramática BNF
-      <grammar> ::= <cmd> | <cmd>EOL<grammar>
+      <gr> ::= <cmd> | <cmd>EOL<gr>
       <cmd> ::= <at> | <esc> | <leia>
       <esc> ::= escreva <texto>
       <texto> ::= str | var | <expr>
