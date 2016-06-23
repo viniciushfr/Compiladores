@@ -2,8 +2,8 @@
 
 ###Ideias Iniciais
 
-      Inserção de dados equivale a 
-      Saída de dados equivale a 
+      Inserção de dados equivale a leia
+      Saída de dados equivale a escreva
       Operadores equivale a +, -, /, *, %
       Variáveis equivale a...z e A..Z
       String equivale a 
