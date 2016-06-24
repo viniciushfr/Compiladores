@@ -6,7 +6,7 @@
       Saída de dados equivale a escreva
       Operadores equivale a +, -, /, *, %
       Variáveis equivale a...z e A..Z
-      String equivale a 
+      String equivale a str
       Atribuição de valores as variáveis equivale a  
 
 ###Gramática BNF
@@ -31,4 +31,5 @@
 |     str     |                   Texto                   |            [a-zA-Z]*           |
 |     num     |             0,1,2,3,4,5,6,7,8,9           |              [0-9]+            |
 |     var     |                     var                   |            [a-zA-Z]+           |
+|             |                                           |                                |
    
