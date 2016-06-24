@@ -27,4 +27,6 @@
 |   escreva   |                  escreva                  |               -                |
 |    leia     |                   leia                    |               -                |
 |     eol     |                    \n                     |               -                |
+|     sep     |                     ,                     |               -                |
+|     str     |                   Texto                   |            [a-zA-Z]+           |
    
