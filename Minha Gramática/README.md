@@ -27,12 +27,15 @@
 |   escreva   |                  escreva                  |             escreva            |         -        |
 |    leia     |                   leia                    |               leia             |         -        |
 |     eol     |                    \n                     |               \n               |         -        |
-|     sep     |                     ,                     |               ,                |                  |
-|     str     |                   Texto                   |            [a-zA-Z]*           |                  |
-|     num     |             0 1 2 3 4 5 6 7 8 9           |           [1-9][0-9]*          |                  |
-|     var     |                     var                   |            [a-zA-Z]+           |                  |
-|     soma    |                      +                    |                +               |                  |
-|     div     |                      /                    |                /               |                  |
-|     mult    |                      *                    |                *               |                  |
-|     resto   |                      %                    |                %               |                  |
+|     sep     |                     ,                     |               ,                |         -        |
+|     str     |                   Texto                   |             "(.?)*"            |         -        |
+|     num     |             0 1 2 3 4 5 6 7 8 9.5         |         [0-9]+ (\.[0-9]+)?     |         -        |
+|     var     |                     var                   |                                |         -        |
+|     soma    |                      +                    |                +               |         -        |
+|     div     |                      /                    |                /               |         -        |
+|     mult    |                      *                    |                *               |         -        |
+|     resto   |                      %                    |                %               |         -        |
+|      pa     |                     (                     |                (               |         -        |
+|      pf     |                     )                     |                )               |         -        |
+
    
