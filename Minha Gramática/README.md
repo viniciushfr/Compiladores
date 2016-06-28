@@ -7,7 +7,7 @@
       Operadores equivale a +, -, /, *, %
       Variáveis equivale a...z e A..Z
       String equivale a str
-      Atribuição de valores as variáveis equivale a  
+      Atribuição de valores as variáveis equivale a rec
 
 ###Gramática BNF
       <gr> ::= <cmd> | <cmd>eol<gr>
