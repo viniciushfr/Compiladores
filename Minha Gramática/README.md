@@ -10,7 +10,7 @@
       Atribuição de valores as variáveis equivale a rec
 
 ###Gramática BNF
-      <gr> ::= <cmd> | <cmd>eol<gr>
+      <gr> ::= <cmd> | <cmd>;<gr>
       <cmd> ::= <at> | <esc> | <leia>
       <esc> ::= escreva <texto>
       <texto> ::= str | var | <expr>
@@ -26,7 +26,7 @@
 |-------------|-------------------------------------------|--------------------------------|------------------|
 |   escreva   |                  escreva                  |             escreva            |         -        |
 |    leia     |                   leia                    |               leia             |         -        |
-|     eol     |                    \n                     |               \n               |         -        |
+|      ;      |                    \t                     |               \t               |         -        |
 |     sep     |                     ,                     |               ,                |         -        |
 |     str     |                   Texto                   |             "(.?)*"            |         -        |
 |     num     |             0 1 2 3 4 5 6 7 8 9.5         |         [0-9]+ (\.[0-9]+)?     |         -        |
