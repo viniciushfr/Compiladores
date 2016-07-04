@@ -1,0 +1,14 @@
+#define ESCREVA   1
+#define LEIA      2
+#define SOMA      3
+#define SUB       4
+#define DIV       5
+#define MULT      6
+#define RESTO     7
+#define VAR       8
+#define STR       9
+#define NUM       10
+#define SEP       11
+#define PA        12
+#define PF        13
+#define REC       14
