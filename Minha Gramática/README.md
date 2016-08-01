@@ -10,12 +10,12 @@
       Atribuição de valores as variáveis equivale a rec
 
 ###Gramática BNF
-      <gr> ::= <cmd> | <cmd>;<gr>
+      <gr> ::= <cmd> | <cmd><fimlinha><gr>
       <cmd> ::= <at> | <esc> | <leia>
       <esc> ::= escreva <texto>
       <texto> ::= str | var | <expr>
       <expr> ::= num | <expr><op><expr> | pa<expr>pf | var
-      <op> ::= soma | div | mult | resto
+      <op> ::= soma | dvs | mult | resto
       <leia> ::= leia <vars>
       <vars> ::= var | var sep<vars>
       <at> ::= var rec <val>
@@ -32,7 +32,7 @@
 |     num     |             0 1 2 3 4 5 6 7 8 9.5         |         [0-9]+ (\.[0-9]+)?     |         -        |
 |     var     |                     var                   |        [a-zA-Z][a-zA-Z0-9]*    |         -        |
 |     soma    |                      +                    |                +               |         -        |
-|     div     |                      /                    |                /               |         -        |
+|     dvs     |                      /                    |                /               |         -        |
 |     mult    |                      *                    |                *               |         -        |
 |     resto   |                      %                    |                %               |         -        |
 |      pa     |                     (                     |                (               |         -        |
